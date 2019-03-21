@@ -1,16 +1,16 @@
 # liri-node-app
 ## About
 
-LIRI is like iPhone's SIRI;however, unline SIRI, LIRI is a (L)anguage (I)nterpretation and (R)ecognition (I)nterface. It is a command line **Node app** that takes in parameters and gives you back data.
+LIRI is like iPhone's SIRI;however, unlike SIRI, LIRI is a (L)anguage (I)nterpretation and (R)ecognition (I)nterface. It is a command line **Node app** that takes in parameters and gives you back data.
 
 ## Functions
 
 There are four functions built in the bot:  
 
-*`movie()`
-*`song()`
-*`band()`
-*`doit()`
+  *`movie()`
+  *`song()`
+  *`band()`
+  *`doit()`
 
 To call any of the above functions, one has to type in its' respective parameter along with desired action. To do so, one has to navigate to the file directory in the command terminal and follow the format:
 > `node liri <respective-parameter> <respective action>`
@@ -58,6 +58,12 @@ It takes in `concert-this` as the parameter.
 `node liri do-what-it-says`  
 When this function is called it reads the `random.txt` file located in the directory and takes the first element as parameter and takes the second element as the input to execute the corresponding function. `fs` node package is used to read the file.
 
+## Working Examples:  
+
+![Image](song.jpeg)
+![Image](band.jpeg)
+![Image](movie.jpeg)
+![Image](doit.jpeg)
 
 ## License
 **MIT** License
