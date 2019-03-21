@@ -1,9 +1,9 @@
 # liri-node-app
-##About
+## About
 --------
 LIRI is like iPhone's SIRI;however, unline SIRI, LIRI is a (L)anguage (I)nterpretation and (R)ecognition (I)nterface. It is a command line **Node app** that takes in parameters and gives you back data.
 
-##Functions
+## Functions
 ----------
 There are four functions built in the bot:
 *`movie()`
@@ -13,7 +13,7 @@ There are four functions built in the bot:
 To call any of the above functions, one has to type in its' respective parameter along with desired action. To do so, one has to navigate to the file directory in the command terminal and follow the format:
 > `node liri <respective-parameter> <respective action>`
 
-###`movie()`
+### `movie()`
 `node liri movie-this <movie-title>`
 This function takes in a *movie title* and displays:
        * Title of the movie.
@@ -25,6 +25,6 @@ This function takes in a *movie title* and displays:
        * Plot of the movie.
        * Actors in the movie.
 It takes `movie-this` as the parameter.
-##License
+## License
 ---------
-**MIT**License
+**MIT** License
