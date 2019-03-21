@@ -7,10 +7,10 @@ LIRI is like iPhone's SIRI;however, unlike SIRI, LIRI is a (L)anguage (I)nterpre
 
 There are four functions built in the bot:  
 
-        *`movie()`
-        *`song()`
-        *`band()`
-        *`doit()`
+        *movie()
+        *song()
+        *band()
+        *doit()
 
 To call any of the above functions, one has to type in its' respective parameter along with desired action. To do so, one has to navigate to the file directory in the command terminal and follow the format:
 > `node liri <respective-parameter> <respective action>`
